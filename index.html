@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Le H</h1>
+    <div id="content">
+
+        <div id="player">
+            <div class="player-form">
+                <label>Joueur</label>
+                <input type="text" class="player">
+            </div>
+
+        </div>
+        <br>
+        <button id="add-player">Ajouter joueur</button>
+        <br>
+        <input type="radio" id="32" name="deck"> <label for="32">Jeu de 32</label>
+        <input type="radio" id="deck52" name="deck" checked> <label for="52">Jeu de 52</label>
+        <br>
+        <button id="start-game">Jouer</button>
+    </div>
+
+    <div id="gameboard" style="display: none;">
+        <div id="question">hey</div>
+        <div id="answer"></div>
+        <div id="result"></div>
+    </div>
+    </div>
+
+
+    <script src="js/game.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
